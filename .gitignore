@@ -1,0 +1,19 @@
+# Real (or masked-but-derived) patient geodata must never be committed.
+# See README.md "Data" section: supply your own data under data/ locally.
+data/
+
+# Generated outputs (regenerate by re-running the notebooks)
+outputs_*/
+Kernel-Density-Estimation/
+
+# Jupyter / Python housekeeping
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
