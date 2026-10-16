@@ -1,0 +1,36 @@
+# =========================
+# Core
+# =========================
+syft>=0.9.0,<0.10
+pandas
+numpy
+pyarrow
+fastparquet
+matplotlib
+
+# =========================
+# Spatial / GIS
+# =========================
+geopandas
+shapely
+pyproj
+fiona
+rtree
+
+# =========================
+# Spatial Statistics
+# =========================
+scikit-learn
+libpysal
+esda
+
+# =========================
+# Differential Privacy
+# =========================
+opendp
+h3
+
+# =========================
+# Visualization
+# =========================
+matplotlib-scalebar

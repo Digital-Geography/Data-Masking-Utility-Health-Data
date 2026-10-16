@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  notebook:
+    build: .
+    container_name: syft-notebook
+    ports:
+      - "8888:8888"   # Jupyter Lab
+      - "8093:8093"   # PySyft orchestra (lokaler Datasite-Server)
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./data:/home/jovyan/work/data
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      # Jupyter ohne Token/Passwort (nur lokal auf deinem Rechner!)
+      - NB_UID=1000
+      - NB_GID=100
+    command: start-notebook.sh --ServerApp.token='' --ServerApp.password=''

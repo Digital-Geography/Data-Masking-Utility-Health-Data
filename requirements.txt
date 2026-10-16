@@ -1,0 +1,22 @@
+# Core geodata / analysis stack
+geopandas>=1.1.3
+shapely>=2.0
+numpy>=1.26
+pandas>=3.0.4
+
+# Spatial statistics (Global/Local Moran's I, LISA)
+libpysal>=4.9
+esda>=2.5
+
+# Kernel density estimation
+scikit-learn>=2.2.0
+
+# Donut / geographic masking
+maskmypy>=1.1.0
+
+# Synthetic data generation (SyntheticDataSDV.ipynb only)
+sdv>=1.37
+ctgan
+
+# Optional, only needed if you re-run analyses interactively in Jupyter
+jupyter
