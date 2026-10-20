@@ -8,12 +8,9 @@ autocorrelation (Moran's I).
 
 ## Data
 
-**This repository does not include any data.** The original dataset is real (pseudonymised)
-hospital patient location data, and this is a thesis about protecting exactly that kind of
-data — it must not be published alongside the code that processes it.
+**This repository does not include any data.** 
 
-To run these notebooks yourself, supply your own data under a local `data/` folder (already
-listed in `.gitignore`, so it is never committed), following this layout:
+To run these notebooks yourself, supply your own data under a local `data/` folder, following this layout:
 
 ```
 data/
@@ -113,7 +110,3 @@ The core references per method:
   In *Handbook of Applied Spatial Analysis* (pp. 175–193). Springer.
 - **Software-agent approach** (`software-agent/`): OpenMined. (2024). [PySyft](https://github.com/OpenMined/PySyft)
   (Version 0.9.5) [Computer software].
-
-## License
-
-All rights reserved by the author. Please contact the author for any reuse of the code.
